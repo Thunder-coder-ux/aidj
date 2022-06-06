@@ -1,0 +1,61 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%; 
+    border-radius: 51px;
+    font-size: 31px;
+    margin: 0;
+
+}
+
+.note{
+    font-size: 17px;
+    color: black;
+}
+
+#div_speed{
+    float: left;
+}
+
+#spd_img{
+    border-radius: 200px;
+    width: 201px;
+}
+
+#vol_img{
+    border-radius: 200px;
+    width: 201px;
+}
+
+#div_volume{
+    float: right;
+}
+
+.play_btn{
+    font-size: 29px;
+}
+
+#speed{
+    font-size: 21px;
+    margin: 13px;
+}
+
+#volume{
+    font-size: 21px;
+    margin: 13.1px;
+}
+
+canvas{
+    border: 5px dashed salmon;
+    border-radius: 49px 21px 75px 12px;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-delay: 4210ms;
+}
+
+@keyframes example{
+    from{box-shadow: 3px 1px 2px lightcyan;}
+    to{box-shadow: 3.8653px 2px 1.21px cyan;}
+}
